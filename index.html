@@ -99,13 +99,19 @@
           <label for="my-phone">Phone Number</label>
           <input type="tel" name="my-phone" id="my-phone" required>
         
-        Membership Type
-          Select a Membership Option
-          Monthly Membership
-          Annual Membership
-          Family & Group Plans
-        Tell us about your fitness goals:
-        Submit
+          <label for="memb-type">Membership Type</label>
+          <select name="memb-type" id="memb-type">
+            <option value="">Select a Membership Option</option>
+            <option value="monthly">Monthly Membership</option>
+            <option value="annual">Annual Membership</option>
+            <option value="family-plan">Family & Group Plans</option>
+          </select>
+
+          <label for="fitness-goals">Tell us about your fitness goals:</label>
+          <textarea name="fitness-goals" id="fitness-goals"></textarea>
+        
+          <input type="submit" name="my-submit" id="my-submit" value="Submit">
+        
         </form>
         
       </section>
